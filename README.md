@@ -1,7 +1,7 @@
 PleasantNavigationController
 ====
 
-A UINavigationController will only tell you when [it] shows a new top view controller via a push, pop or setting of the view controller stack. You never know the type/direction of the move. PleasantNavigationController, a subclass of UINavigationController, communicates its navigation actions to its delegate with a more fine-grained approach, providing a richer context for your application flow.
+A UINavigationController will only tell you when it shows a new top view controller via a push, pop or setting of the view controller stack. You never know the type/direction of the move. PleasantNavigationController, a subclass of UINavigationController, communicates its navigation actions to its delegate with a more fine-grained approach, providing a richer context for your application flow.
 
 Usage
 ====
