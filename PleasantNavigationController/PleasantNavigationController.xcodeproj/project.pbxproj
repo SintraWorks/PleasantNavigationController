@@ -26,7 +26,7 @@
 
 /* Begin PBXFileReference section */
 		6D2D032921FE4D1000A39CDD /* PleasantNavigationController.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = PleasantNavigationController.podspec; path = ../PleasantNavigationController.podspec; sourceTree = "<group>"; };
-		6D2D032B21FE532B00A39CDD /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6D2D032B21FE532B00A39CDD /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6D660EE221EDAD74001AB4A5 /* PleasantNavigationController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PleasantNavigationController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D660EE521EDAD74001AB4A5 /* PleasantNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PleasantNavigationController.h; sourceTree = "<group>"; };
 		6D660EE621EDAD74001AB4A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
