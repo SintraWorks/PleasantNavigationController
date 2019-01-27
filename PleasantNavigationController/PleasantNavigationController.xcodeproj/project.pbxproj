@@ -7,81 +7,89 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6D660E9C21EDA643001AB4A5 /* PleasantNavigationController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D660E9221EDA642001AB4A5 /* PleasantNavigationController.framework */; };
-		6D660EA121EDA643001AB4A5 /* PleasantNavigationControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D660EA021EDA643001AB4A5 /* PleasantNavigationControllerTests.swift */; };
-		6D660EA321EDA643001AB4A5 /* PleasantNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D660E9521EDA642001AB4A5 /* PleasantNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D2D032A21FE4D1000A39CDD /* PleasantNavigationController.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 6D2D032921FE4D1000A39CDD /* PleasantNavigationController.podspec */; };
+		6D660EEC21EDAD74001AB4A5 /* PleasantNavigationController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D660EE221EDAD74001AB4A5 /* PleasantNavigationController.framework */; };
+		6D660EF121EDAD74001AB4A5 /* PleasantNavigationControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D660EF021EDAD74001AB4A5 /* PleasantNavigationControllerTests.swift */; };
+		6D660EF321EDAD74001AB4A5 /* PleasantNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D660EE521EDAD74001AB4A5 /* PleasantNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D660EFD21EDAE72001AB4A5 /* PleasantNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D660EFC21EDAE72001AB4A5 /* PleasantNavigationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6D660E9D21EDA643001AB4A5 /* PBXContainerItemProxy */ = {
+		6D660EED21EDAD74001AB4A5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6D660E8921EDA642001AB4A5 /* Project object */;
+			containerPortal = 6D660ED921EDAD74001AB4A5 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6D660E9121EDA642001AB4A5;
+			remoteGlobalIDString = 6D660EE121EDAD74001AB4A5;
 			remoteInfo = PleasantNavigationController;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6D660E9221EDA642001AB4A5 /* PleasantNavigationController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PleasantNavigationController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6D660E9521EDA642001AB4A5 /* PleasantNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PleasantNavigationController.h; sourceTree = "<group>"; };
-		6D660E9621EDA642001AB4A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6D660E9B21EDA643001AB4A5 /* PleasantNavigationControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PleasantNavigationControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6D660EA021EDA643001AB4A5 /* PleasantNavigationControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PleasantNavigationControllerTests.swift; sourceTree = "<group>"; };
-		6D660EA221EDA643001AB4A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D2D032921FE4D1000A39CDD /* PleasantNavigationController.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = PleasantNavigationController.podspec; path = ../PleasantNavigationController.podspec; sourceTree = "<group>"; };
+		6D2D032B21FE532B00A39CDD /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6D660EE221EDAD74001AB4A5 /* PleasantNavigationController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PleasantNavigationController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D660EE521EDAD74001AB4A5 /* PleasantNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PleasantNavigationController.h; sourceTree = "<group>"; };
+		6D660EE621EDAD74001AB4A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D660EEB21EDAD74001AB4A5 /* PleasantNavigationControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PleasantNavigationControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D660EF021EDAD74001AB4A5 /* PleasantNavigationControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PleasantNavigationControllerTests.swift; sourceTree = "<group>"; };
+		6D660EF221EDAD74001AB4A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D660EFC21EDAE72001AB4A5 /* PleasantNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PleasantNavigationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6D660E8F21EDA642001AB4A5 /* Frameworks */ = {
+		6D660EDF21EDAD74001AB4A5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6D660E9821EDA643001AB4A5 /* Frameworks */ = {
+		6D660EE821EDAD74001AB4A5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D660E9C21EDA643001AB4A5 /* PleasantNavigationController.framework in Frameworks */,
+				6D660EEC21EDAD74001AB4A5 /* PleasantNavigationController.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6D660E8821EDA642001AB4A5 = {
+		6D660ED821EDAD74001AB4A5 = {
 			isa = PBXGroup;
 			children = (
-				6D660E9421EDA642001AB4A5 /* PleasantNavigationController */,
-				6D660E9F21EDA643001AB4A5 /* PleasantNavigationControllerTests */,
-				6D660E9321EDA642001AB4A5 /* Products */,
+				6D2D032B21FE532B00A39CDD /* README.md */,
+				6D2D032921FE4D1000A39CDD /* PleasantNavigationController.podspec */,
+				6D660EE421EDAD74001AB4A5 /* PleasantNavigationController */,
+				6D660EEF21EDAD74001AB4A5 /* PleasantNavigationControllerTests */,
+				6D660EE321EDAD74001AB4A5 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		6D660E9321EDA642001AB4A5 /* Products */ = {
+		6D660EE321EDAD74001AB4A5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6D660E9221EDA642001AB4A5 /* PleasantNavigationController.framework */,
-				6D660E9B21EDA643001AB4A5 /* PleasantNavigationControllerTests.xctest */,
+				6D660EE221EDAD74001AB4A5 /* PleasantNavigationController.framework */,
+				6D660EEB21EDAD74001AB4A5 /* PleasantNavigationControllerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6D660E9421EDA642001AB4A5 /* PleasantNavigationController */ = {
+		6D660EE421EDAD74001AB4A5 /* PleasantNavigationController */ = {
 			isa = PBXGroup;
 			children = (
-				6D660E9521EDA642001AB4A5 /* PleasantNavigationController.h */,
-				6D660E9621EDA642001AB4A5 /* Info.plist */,
+				6D660EFC21EDAE72001AB4A5 /* PleasantNavigationController.swift */,
+				6D660EE521EDAD74001AB4A5 /* PleasantNavigationController.h */,
+				6D660EE621EDAD74001AB4A5 /* Info.plist */,
 			);
 			path = PleasantNavigationController;
 			sourceTree = "<group>";
 		};
-		6D660E9F21EDA643001AB4A5 /* PleasantNavigationControllerTests */ = {
+		6D660EEF21EDAD74001AB4A5 /* PleasantNavigationControllerTests */ = {
 			isa = PBXGroup;
 			children = (
-				6D660EA021EDA643001AB4A5 /* PleasantNavigationControllerTests.swift */,
-				6D660EA221EDA643001AB4A5 /* Info.plist */,
+				6D660EF021EDAD74001AB4A5 /* PleasantNavigationControllerTests.swift */,
+				6D660EF221EDAD74001AB4A5 /* Info.plist */,
 			);
 			path = PleasantNavigationControllerTests;
 			sourceTree = "<group>";
@@ -89,25 +97,25 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		6D660E8D21EDA642001AB4A5 /* Headers */ = {
+		6D660EDD21EDAD74001AB4A5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D660EA321EDA643001AB4A5 /* PleasantNavigationController.h in Headers */,
+				6D660EF321EDAD74001AB4A5 /* PleasantNavigationController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		6D660E9121EDA642001AB4A5 /* PleasantNavigationController */ = {
+		6D660EE121EDAD74001AB4A5 /* PleasantNavigationController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6D660EA621EDA643001AB4A5 /* Build configuration list for PBXNativeTarget "PleasantNavigationController" */;
+			buildConfigurationList = 6D660EF621EDAD74001AB4A5 /* Build configuration list for PBXNativeTarget "PleasantNavigationController" */;
 			buildPhases = (
-				6D660E8D21EDA642001AB4A5 /* Headers */,
-				6D660E8E21EDA642001AB4A5 /* Sources */,
-				6D660E8F21EDA642001AB4A5 /* Frameworks */,
-				6D660E9021EDA642001AB4A5 /* Resources */,
+				6D660EDD21EDAD74001AB4A5 /* Headers */,
+				6D660EDE21EDAD74001AB4A5 /* Sources */,
+				6D660EDF21EDAD74001AB4A5 /* Frameworks */,
+				6D660EE021EDAD74001AB4A5 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -115,72 +123,74 @@
 			);
 			name = PleasantNavigationController;
 			productName = PleasantNavigationController;
-			productReference = 6D660E9221EDA642001AB4A5 /* PleasantNavigationController.framework */;
+			productReference = 6D660EE221EDAD74001AB4A5 /* PleasantNavigationController.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		6D660E9A21EDA643001AB4A5 /* PleasantNavigationControllerTests */ = {
+		6D660EEA21EDAD74001AB4A5 /* PleasantNavigationControllerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6D660EA921EDA643001AB4A5 /* Build configuration list for PBXNativeTarget "PleasantNavigationControllerTests" */;
+			buildConfigurationList = 6D660EF921EDAD74001AB4A5 /* Build configuration list for PBXNativeTarget "PleasantNavigationControllerTests" */;
 			buildPhases = (
-				6D660E9721EDA643001AB4A5 /* Sources */,
-				6D660E9821EDA643001AB4A5 /* Frameworks */,
-				6D660E9921EDA643001AB4A5 /* Resources */,
+				6D660EE721EDAD74001AB4A5 /* Sources */,
+				6D660EE821EDAD74001AB4A5 /* Frameworks */,
+				6D660EE921EDAD74001AB4A5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6D660E9E21EDA643001AB4A5 /* PBXTargetDependency */,
+				6D660EEE21EDAD74001AB4A5 /* PBXTargetDependency */,
 			);
 			name = PleasantNavigationControllerTests;
 			productName = PleasantNavigationControllerTests;
-			productReference = 6D660E9B21EDA643001AB4A5 /* PleasantNavigationControllerTests.xctest */;
+			productReference = 6D660EEB21EDAD74001AB4A5 /* PleasantNavigationControllerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		6D660E8921EDA642001AB4A5 /* Project object */ = {
+		6D660ED921EDAD74001AB4A5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = SintraWorks;
 				TargetAttributes = {
-					6D660E9121EDA642001AB4A5 = {
+					6D660EE121EDAD74001AB4A5 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 					};
-					6D660E9A21EDA643001AB4A5 = {
+					6D660EEA21EDAD74001AB4A5 = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
 			};
-			buildConfigurationList = 6D660E8C21EDA642001AB4A5 /* Build configuration list for PBXProject "PleasantNavigationController" */;
+			buildConfigurationList = 6D660EDC21EDAD74001AB4A5 /* Build configuration list for PBXProject "PleasantNavigationController" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 6D660E8821EDA642001AB4A5;
-			productRefGroup = 6D660E9321EDA642001AB4A5 /* Products */;
+			mainGroup = 6D660ED821EDAD74001AB4A5;
+			productRefGroup = 6D660EE321EDAD74001AB4A5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6D660E9121EDA642001AB4A5 /* PleasantNavigationController */,
-				6D660E9A21EDA643001AB4A5 /* PleasantNavigationControllerTests */,
+				6D660EE121EDAD74001AB4A5 /* PleasantNavigationController */,
+				6D660EEA21EDAD74001AB4A5 /* PleasantNavigationControllerTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6D660E9021EDA642001AB4A5 /* Resources */ = {
+		6D660EE021EDAD74001AB4A5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D2D032A21FE4D1000A39CDD /* PleasantNavigationController.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6D660E9921EDA643001AB4A5 /* Resources */ = {
+		6D660EE921EDAD74001AB4A5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -190,33 +200,34 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6D660E8E21EDA642001AB4A5 /* Sources */ = {
+		6D660EDE21EDAD74001AB4A5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D660EFD21EDAE72001AB4A5 /* PleasantNavigationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6D660E9721EDA643001AB4A5 /* Sources */ = {
+		6D660EE721EDAD74001AB4A5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D660EA121EDA643001AB4A5 /* PleasantNavigationControllerTests.swift in Sources */,
+				6D660EF121EDAD74001AB4A5 /* PleasantNavigationControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6D660E9E21EDA643001AB4A5 /* PBXTargetDependency */ = {
+		6D660EEE21EDAD74001AB4A5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6D660E9121EDA642001AB4A5 /* PleasantNavigationController */;
-			targetProxy = 6D660E9D21EDA643001AB4A5 /* PBXContainerItemProxy */;
+			target = 6D660EE121EDAD74001AB4A5 /* PleasantNavigationController */;
+			targetProxy = 6D660EED21EDAD74001AB4A5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		6D660EA421EDA643001AB4A5 /* Debug */ = {
+		6D660EF421EDAD74001AB4A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -268,19 +279,20 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		6D660EA521EDA643001AB4A5 /* Release */ = {
+		6D660EF521EDAD74001AB4A5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -326,21 +338,23 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		6D660EA721EDA643001AB4A5 /* Debug */ = {
+		6D660EF721EDAD74001AB4A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -358,14 +372,16 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.sintraworks.PleasantNavigationController;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		6D660EA821EDA643001AB4A5 /* Release */ = {
+		6D660EF821EDAD74001AB4A5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -388,9 +404,10 @@
 			};
 			name = Release;
 		};
-		6D660EAA21EDA643001AB4A5 /* Debug */ = {
+		6D660EFA21EDAD74001AB4A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 689JQUEJ8U;
 				INFOPLIST_FILE = PleasantNavigationControllerTests/Info.plist;
@@ -406,9 +423,10 @@
 			};
 			name = Debug;
 		};
-		6D660EAB21EDA643001AB4A5 /* Release */ = {
+		6D660EFB21EDAD74001AB4A5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 689JQUEJ8U;
 				INFOPLIST_FILE = PleasantNavigationControllerTests/Info.plist;
@@ -427,34 +445,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6D660E8C21EDA642001AB4A5 /* Build configuration list for PBXProject "PleasantNavigationController" */ = {
+		6D660EDC21EDAD74001AB4A5 /* Build configuration list for PBXProject "PleasantNavigationController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6D660EA421EDA643001AB4A5 /* Debug */,
-				6D660EA521EDA643001AB4A5 /* Release */,
+				6D660EF421EDAD74001AB4A5 /* Debug */,
+				6D660EF521EDAD74001AB4A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6D660EA621EDA643001AB4A5 /* Build configuration list for PBXNativeTarget "PleasantNavigationController" */ = {
+		6D660EF621EDAD74001AB4A5 /* Build configuration list for PBXNativeTarget "PleasantNavigationController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6D660EA721EDA643001AB4A5 /* Debug */,
-				6D660EA821EDA643001AB4A5 /* Release */,
+				6D660EF721EDAD74001AB4A5 /* Debug */,
+				6D660EF821EDAD74001AB4A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6D660EA921EDA643001AB4A5 /* Build configuration list for PBXNativeTarget "PleasantNavigationControllerTests" */ = {
+		6D660EF921EDAD74001AB4A5 /* Build configuration list for PBXNativeTarget "PleasantNavigationControllerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6D660EAA21EDA643001AB4A5 /* Debug */,
-				6D660EAB21EDA643001AB4A5 /* Release */,
+				6D660EFA21EDAD74001AB4A5 /* Debug */,
+				6D660EFB21EDAD74001AB4A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 6D660E8921EDA642001AB4A5 /* Project object */;
+	rootObject = 6D660ED921EDAD74001AB4A5 /* Project object */;
 }

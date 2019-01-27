@@ -1,15 +1,15 @@
 //
-//  PleasantNavigationControllerTests.swift
-//  PleasantNavigationControllerTests
+//  ExampleTests.swift
+//  ExampleTests
 //
 //  Created by Antonio Nunes on 15/01/2019.
 //  Copyright © 2019 SintraWorks. All rights reserved.
 //
 
 import XCTest
-@testable import PleasantNavigationController
+@testable import Example
 
-class PleasantNavigationControllerTests: XCTestCase {
+class ExampleTests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
