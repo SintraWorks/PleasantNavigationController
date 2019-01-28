@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6D2D032A21FE4D1000A39CDD /* PleasantNavigationController.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 6D2D032921FE4D1000A39CDD /* PleasantNavigationController.podspec */; };
+		6D2D032D21FED3E600A39CDD /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 6D2D032C21FED3E600A39CDD /* LICENSE */; };
 		6D660EEC21EDAD74001AB4A5 /* PleasantNavigationController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D660EE221EDAD74001AB4A5 /* PleasantNavigationController.framework */; };
 		6D660EF121EDAD74001AB4A5 /* PleasantNavigationControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D660EF021EDAD74001AB4A5 /* PleasantNavigationControllerTests.swift */; };
 		6D660EF321EDAD74001AB4A5 /* PleasantNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D660EE521EDAD74001AB4A5 /* PleasantNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -27,6 +28,7 @@
 /* Begin PBXFileReference section */
 		6D2D032921FE4D1000A39CDD /* PleasantNavigationController.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = PleasantNavigationController.podspec; path = ../PleasantNavigationController.podspec; sourceTree = "<group>"; };
 		6D2D032B21FE532B00A39CDD /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6D2D032C21FED3E600A39CDD /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		6D660EE221EDAD74001AB4A5 /* PleasantNavigationController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PleasantNavigationController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D660EE521EDAD74001AB4A5 /* PleasantNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PleasantNavigationController.h; sourceTree = "<group>"; };
 		6D660EE621EDAD74001AB4A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 		6D660ED821EDAD74001AB4A5 = {
 			isa = PBXGroup;
 			children = (
+				6D2D032C21FED3E600A39CDD /* LICENSE */,
 				6D2D032B21FE532B00A39CDD /* README.md */,
 				6D660EE421EDAD74001AB4A5 /* PleasantNavigationController */,
 				6D660EEF21EDAD74001AB4A5 /* PleasantNavigationControllerTests */,
@@ -186,6 +189,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D2D032D21FED3E600A39CDD /* LICENSE in Resources */,
 				6D2D032A21FE4D1000A39CDD /* PleasantNavigationController.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
