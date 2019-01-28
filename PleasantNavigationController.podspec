@@ -75,7 +75,7 @@ s.platform     = :ios, "11.0"
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "http://EXAMPLE/PleasantNavigationController.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/SintraWorks/PleasantNavigationController.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -86,9 +86,9 @@ s.platform     = :ios, "11.0"
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+  s.source_files  = "PleasantNavigationController/PleasantNavigationController/*.{swift}"
+  s.swift_version = "4.2"
 
-  # s.public_header_files = "Classes/**/*.h"
+  # s.public_header_files = "PleasantNavigationController/PleasantNavigationController/*.h"
 
 end
