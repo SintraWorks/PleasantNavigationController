@@ -40,3 +40,5 @@ Finally, when settings view controllers, these are the methods that are addition
 + willSetViewControllers
 + didSetViewControllers
 ```
+
+A very basic examply project shows how you can intercept and interpret the navigation.
