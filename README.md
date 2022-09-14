@@ -24,13 +24,19 @@ pushed viewDidAppear
 The two methods listed with a '-' are the standard UInavigationControllerDelegate methods. These can be useful, but you won't be able to tell in these methods whether they are called in response to a push, a pop or another form of setting the view controllers. The PleasantNavigationController delegate methods (designated with a '+') are called right at the start of the push navigation. They allow your delegate to keep track of the type of action (in this case a push), and take any preparatory measures if needed.
 
 Popping works similarly. The methods added by PleasantNavigationController are: 
+
+```
 + willPopViewController
 + didPopViewController
 + willPopToViewController
 + didPopToViewController
 + willPopToRootViewController
 + didPopToRootViewController
+```
 
 Finally, when settings view controllers, these are the methods that are additionally called by PleasantNavigationController:
+
+```
 + willSetViewControllers
 + didSetViewControllers
+```
