@@ -57,7 +57,7 @@ extension MainViewCoordinator: PleasantNavigationControllerDelegate {
     func navigationController(_ navigationController: UINavigationController, willShow viewController: UIViewController, animated: Bool) {
         switch navigationAction {
         case .pop:
-            willShowPopped(viewController)
+                willShowPopped(to: viewController)
         default:
             break
         }
@@ -65,6 +65,7 @@ extension MainViewCoordinator: PleasantNavigationControllerDelegate {
     
     func navigationController(_ navigationController: UINavigationController, didShow viewController: UIViewController, animated: Bool) {
         navigationAction = .none
+        currentViewController = viewController
     }
 }
 
@@ -77,7 +78,7 @@ extension MainViewCoordinator {
         }
     }
     
-    private func willShowPopped(_ viewController: UIViewController) {
+    private func willShowPopped(to viewController: UIViewController) {
         guard
             let poppedViewController = previousViewController,
             let viewControllerToShow = viewController as? BaseViewController

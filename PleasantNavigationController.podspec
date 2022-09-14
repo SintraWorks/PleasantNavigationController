@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "PleasantNavigationController"
-  s.version      = "0.1.0"
+  s.version      = "0.1"
   s.summary      = "A navigation controller that does a better job at communicating navigation events."
 
   s.description  = <<-DESC
@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/SintraWorks/PleasantNavigationController.git", :tag => "#{s.version}" }
 
   s.source_files  = "PleasantNavigationController/PleasantNavigationController/*.{swift}"
-  s.swift_version = "4.2"
+  s.swift_version = "5.0"
   s.requires_arc = true
 
 end

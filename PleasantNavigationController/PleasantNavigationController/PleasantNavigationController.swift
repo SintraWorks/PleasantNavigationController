@@ -169,8 +169,9 @@ public class PleasantNavigationController: UINavigationController {
     
     @discardableResult
     override public func popViewController(animated: Bool) -> UIViewController? {
-        pleasantDelegate?.willPopViewController?(topViewController, animated: animated)
-        defer { pleasantDelegate?.didPopViewController?(topViewController, animated: animated) }
+        let poppedViewController = topViewController
+        pleasantDelegate?.willPopViewController?(poppedViewController, animated: animated)
+        defer { pleasantDelegate?.didPopViewController?(poppedViewController, animated: animated) }
         return super.popViewController(animated: animated)
     }
     
